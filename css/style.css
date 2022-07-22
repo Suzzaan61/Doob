@@ -5,17 +5,63 @@ body{
 }
 
 nav {
-    background: transparent;
+    /* background: yellow; */
+    /* background-color: #314584; */
 }
 
-nav .container-fluid{
-    padding-top: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 20px 100px;
 }
-
-#navbarSupportedContent ul li a{
+.navigation .nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navigation .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation .nav-link{
+    padding-left: 30px;
+    color: #314584;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navigation .navbar-nav:first-child{
+   padding-left: 70px;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right .contact-us button{
     font-size: 18px;
     font-weight: 500;
-    color: #464e90;
+    color: red;
+    box-shadow: 0 2px 3px 2px #dfdfdf;
+}
+.nav-right .dropmenu a{
+    color: #314584;
+    font-size: 16px;
+}
+.nav-right .dropdown-menu{
+    width: 100px;
+}
+.nav-right .dropdown-menu a{
+    color: #314584;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* hero section  */
+.hero{
+    background-color: rgb(244, 220, 189);
+    width: 100%;
+    height: 100vh;
 }
