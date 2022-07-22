@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    background: transparent;
+}
+
+nav .container-fluid{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#navbarSupportedContent ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #464e90;
+}
