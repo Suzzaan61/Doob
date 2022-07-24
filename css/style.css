@@ -95,6 +95,7 @@ nav {
 }
 
 .hero .left-section p {
+    padding-top: 30px;
     color: #6e757a;
 }
 
@@ -120,7 +121,9 @@ nav {
 .hero .left-section .get:hover {
     color: #003cff;
 }
-
+.hero .left-section .buttons{
+    padding-top: 30px;
+}
 .hero .right-section .illustration-1 {
     padding-top: 170px;
     padding-left: 145px;
@@ -140,9 +143,10 @@ nav {
 
 /* section-2 */
 .section-2{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: relative;
+    padding-bottom: 200px;
 }
 .section-2 .content-first button {
 
@@ -152,16 +156,17 @@ nav {
     margin-top: 30px;
 }
 .section-2 .content-first h1{
-    font-size: 3rem;
+    
     line-height: 1.5;
     padding-top: 24px;
+    padding-right: 20px;
 }
 
 .section-2 .content-first button:hover {
     background-color: rgb(255, 50, 50);
 }
 .section-2-padding{
-    padding: 5% 10%;
+    padding: 5% 10% 5% 18.5%
 }
 
 .section-2 .card{
@@ -184,4 +189,26 @@ nav {
 .section-2 .bg-2{
     position: absolute;
     bottom: 20px;
+}
+
+
+/* section-4 */
+.section-4 .section-4-padding{
+    padding: 0 10% 5% 5%;
+}
+.section-4 span{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section-4 .content {
+    padding: 0 50px 0 50px;
+}
+.section-4 .content h2{
+    padding-top: 15px;
+    font-size: 40px;
+}
+.section-4 .content p{
+    padding-top: 15px;
+    font-size: 20px;
 }
