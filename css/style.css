@@ -48,7 +48,7 @@ nav {
 .nav-right {
     display: flex;
     align-items: center;
-    padding-right: 126px;
+    padding-right: 67px;
 }
 
 .nav-right .contact-us button {
@@ -57,6 +57,9 @@ nav {
     color: red;
     box-shadow: 0 2px 3px 2px #dfdfdf;
     width: 200px;
+}
+.nav-right .dropmenu{
+    padding-right: 30px;
 }
 
 .nav-right .dropmenu a {
