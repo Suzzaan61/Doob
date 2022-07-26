@@ -16,7 +16,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 100px 20px 100px;
+    padding: 50px 50px 20px 50px;
 }
 
 .navigation .nav-left {
@@ -42,13 +42,13 @@ nav {
 }
 
 .navigation .navbar-nav:first-child {
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .nav-right {
     display: flex;
     align-items: center;
-    padding-right: 67px;
+    padding-right: 173px;
 }
 
 .nav-right .contact-us button {
@@ -87,7 +87,7 @@ nav {
 
 .hero .left-section {
     padding-top: 270px;
-    padding-left: 280px;
+    padding-left: 200px;
     padding-bottom: 0px;
     padding-right: 60px;
 
@@ -175,7 +175,7 @@ nav {
 }
 
 .section-2-padding {
-    padding: 5% 10% 5% 18.5%
+    padding: 5% 13% 5% 13%
 }
 
 .section-2 .card {
@@ -227,7 +227,7 @@ nav {
 }
 
 .section-4 .section-4-padding {
-    padding: 0 10% 5% 5%;
+    padding: 0 13% 5% 0%;
 }
 
 .section-4 span {
@@ -271,7 +271,7 @@ nav {
 }
 
 .section-5 .section-5-padding {
-    padding: 2% 9% 8% 17%;
+    padding: 2% 13% 8% 13%;
 }
 
 .section-5 img {
@@ -291,8 +291,7 @@ nav {
 }
 
 .section-5 .gallery-heading {
-    padding-left: 17%;
-    padding-right: 900px;
+    padding-left: 14%;
     font-size: 36px;
     font-weight: 600;
 }
@@ -318,7 +317,7 @@ nav {
 /* section-6 */
 .section-6-padding {
     background: url(/Assets/Bg-Shape-5.png);
-    padding: 1% 4% 9% 17.5%;
+    padding: 1% 13% 9% 13%;
     background-repeat: no-repeat;
     background-position: right;
     background-size: 250px;
@@ -361,8 +360,12 @@ nav {
     padding: 5px 0;
 }
 
+
+
+/* section-7  */
+
 .section-7-padding {
-    padding: 2% 4% 5% 17.5%;
+    padding: 2% 13% 5% 13%;
 }
 
 .section-7 .bottom-form .email input {
@@ -414,6 +417,7 @@ nav {
 }
 .section-7 .bottom-form  .send{
     text-align: center;
+    padding-left: 30px;
 }
 .section-7 .bottom-form  .submit-send:hover{
     transition: 1s ease;
@@ -426,7 +430,6 @@ footer{
     height: 100%;
     background-color: #314584;
     color: #fff;
-    padding: 2% 4% 5% 17.5%;
 
 }
 footer .top-container{
