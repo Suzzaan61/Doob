@@ -4,10 +4,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     color: #314584;
 }
-
-nav {
-    /* background: yellow; */
-    /*background-color: #314584; */
+ nav {
     position: absolute;
     width: 100%;
 }
@@ -75,7 +72,7 @@ nav {
     color: #314584;
     font-size: 16px;
     font-weight: 500;
-}
+} */
 
 
 /* hero section  */

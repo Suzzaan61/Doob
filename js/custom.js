@@ -9,7 +9,7 @@ $('.section2-slider').owlCarousel({
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1000:{
             items:2
@@ -43,7 +43,7 @@ $('.section6-slider').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
             items:3
