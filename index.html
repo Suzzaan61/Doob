@@ -21,9 +21,16 @@
 
 <body>
     <div class="main">
-        <nav class="navigation">
-            <div class="nav-left">
-                <div class="logo"><a href="#"><img src="../help/assets/logo.png" alt="" width="100"></a></div>
+        <nav class="navigation nav navbar-expand-lg bg-transparent ">
+
+            <div class="logo"><a href="#"><img src="../Help/assets/logo.png" alt="" width="300"></a></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent01" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" style="color: black;">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse top-nav justify-content-between"  id="navbarSupportedContent01">
                 <div class="navi">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -43,23 +50,25 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="nav-right">
-                <div class="dropmenu">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Eng
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Nep</a></li>
-                        <li><a class="dropdown-item" href="#">Deu</a></li>
 
-                    </ul>
-                </div>
-                <div class="contact-us">
-                    <button class="btn btn-lg bg-light">contact us. <img src="Assets/Arrow.png" alt=""
-                            width="17%"></i></button>
 
+                <div class="nav-right">
+                    <div class="dropmenu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Eng
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Nep</a></li>
+                            <li><a class="dropdown-item" href="#">Deu</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="contact-us">
+                        <button class="btn btn-lg bg-light">contact us. <img src="Assets/Arrow.png" alt=""
+                                width="30"></button>
+
+                    </div>
                 </div>
             </div>
 
@@ -71,10 +80,10 @@
             <div class="row g-0">
                 <div class="col-md-6">
                     <div class="left-section">
-                        <h1>The Spirit of <br>
+                        <h1 class="hero-heading">The Spirit of <br>
                             Digital Agency.
                         </h1>
-                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan
+                        <p class="hero-para">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan
                             tincidunt.</p>
                         <div class="buttons">
                             <button class="btn btn-lg">More About us</button>
@@ -86,7 +95,7 @@
                     <div class="right-section-padding">
                         <div class="right-section">
                             <div class="illustration-1">
-                                <img class="img-fluid" src="Assets/Vector-illustration1.png" alt="" width="80%">
+                                <img class="img-fluid" src="../Assets/Vector-Illustration1.png" alt="" width="680">
                             </div>
                         </div>
                     </div>
@@ -108,7 +117,7 @@
                                 <div class="card-padding-1">
                                     <div class="card">
                                         <div class="card-body content-1">
-                                            <img class="img-fluid" src="/Assets/card-1.png" alt="" width="50px">
+                                            <img class="img-fluid" src="/Assets/card-1.png" alt="" width="57">
                                             <h2>Web & Graphic Design</h2>
                                             <p class="card-text">Vestibulum ac diam sit amet quam vehicula elementum
                                                 amet est on
@@ -120,10 +129,11 @@
                                 </div>
                             </div>
                             <div class="item">
+                                <div class="card-padding-2">
                                 <div class="card">
-                                    <div class="card-padding-2">
+
                                         <div class="card-body content-2">
-                                            <img class="img-fluid" src="/Assets/card-2.png" alt="" width="60px">
+                                            <img class="img-fluid" src="/Assets/card-2.png" alt="" width="65">
                                             <h2>Web & App Development</h2>
                                             <p class="card-text">Vestibulum ac diam sit amet quam vehicula elementum
                                                 amet est on
@@ -136,10 +146,11 @@
                                 </div>
                             </div>
                             <div class="item">
+                                <div class="card-padding-2">
                                 <div class="card">
-                                    <div class="card-padding-2">
+
                                         <div class="card-body content-2">
-                                            <img class="img-fluid" src="/Assets/card-2.png" alt="" width="60px">
+                                            <img class="img-fluid" src="/Assets/card-2.png" alt="" width="65">
                                             <h2>Web & App Development</h2>
                                             <p class="card-text">Vestibulum ac diam sit amet quam vehicula elementum
                                                 amet est on
@@ -203,6 +214,9 @@
                 <img src="/Assets/Bg-Shape-3.png" alt="" class="bg-img">
             </div>
         </section>
+
+
+<!--        section-5-->
         <div class="section-5">
             <div class="gallery-heading"><span>See some of our <br>
                     Creative work.</span></div>
@@ -236,11 +250,13 @@
                 </div>
                 <div class="bttm-text"><a href="#">
                         <p>See More of These.</p>
-                    </a></div>
+                    </a>
+                </div>
 
             </div>
 
         </div>
+<!--        section-6-->
         <section class="section-6">
             <div class="section-6-padding">
                 <div class="section-head">
@@ -251,17 +267,19 @@
                     <div class="row g-0">
                         <div class="col-md-12">
                             <div class="owl-carousel owl-theme section6-slider">
+
                                 <div class="item">
                                     <div class="card">
                                         <h5>New Advanture</h5>
                                         <span>17 March 2019</span>
-                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla
+                                            porttitor
                                             accumsan
                                             tincidunt.
                                         </p>
-        
+
                                         <span class="aero-icon">
-        
+
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </span>
                                     </div>
@@ -270,13 +288,14 @@
                                     <div class="card">
                                         <h5>New Advanture</h5>
                                         <span>17 March 2019</span>
-                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla
+                                            porttitor
                                             accumsan
                                             tincidunt.
                                         </p>
-        
+
                                         <span class="aero-icon">
-        
+
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </span>
                                     </div>
@@ -285,13 +304,14 @@
                                     <div class="card">
                                         <h5>New Advanture</h5>
                                         <span>17 March 2019</span>
-                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla
+                                            porttitor
                                             accumsan
                                             tincidunt.
                                         </p>
-        
+
                                         <span class="aero-icon">
-        
+
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </span>
                                     </div>
@@ -300,13 +320,14 @@
                                     <div class="card">
                                         <h5>New Advanture</h5>
                                         <span>17 March 2019</span>
-                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla
+                                            porttitor
                                             accumsan
                                             tincidunt.
                                         </p>
-        
+
                                         <span class="aero-icon">
-        
+
                                             <i class="fa-solid fa-arrow-right-long"></i>
                                         </span>
                                     </div>
@@ -318,6 +339,7 @@
 
             </div>
         </section>
+<!--        section-7-->
         <section class="section-7">
             <div class="section-7-padding">
                 <span>CONTACT US</span>
@@ -376,7 +398,7 @@
                 </div>
             </div>
         </section>
-
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

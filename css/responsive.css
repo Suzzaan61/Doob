@@ -1,18 +1,506 @@
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 576px) {
+    /*hero-section*/
+    .hero .row .left-section .hero-heading {
+        font-size: 23px !important;
+    }
+    .hero .row .left-section .hero-para {
+        font-size: 13px !important;
+    }
+    .hero .row .left-section .btn{
+        margin-left: 0 !important;
+    }
+    .hero .row .col-md-6 .left-section .get{
+        padding-left: 28px !important;
+    }
+    .hero  .right-section-padding .row .col-md-6 .right-section{
+        height: 187px;
+    }
+
+
+
+
+
+    .section-5  .top-gallery .row .col-md-4  img, .section-5  .bottom-gallery .row .col-md-4  img{
+        width: 280px !important;
+    }
+
+}
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { ... }
+@media (max-width: 768px) {
+    .hero .col-md-6 .left-section {
+        padding: 200px 100px 0!important;
+    }
+    .hero{
+        background-image: url(/Assets/Bg-Shape1.png);
+        background-size: 571px;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+    .hero img {
+        width: 290px;
+    }
+    .hero .row .col-md-6 .right-section {
+        padding: 0 100px !important;
+        background-image: none;
+        height: 360px !important;
+    }
+    .hero .right-section .illustration-1 {
+        padding: 0;
+    }
 
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-    .navigation .right-navigation{
-        display: none;
+    .hero .row .left-section h1 {
+        font-size: 45px !important;
+    }
+    .hero .row .left-section p {
+        font-size: 28px !important;
+    }
+    .hero .row .left-section .btn {
+        margin-left: 60px;
+        width: 200px !important;
+        height: 55px;
+        font-size: 24px !important;
+    }
+    .hero .row .left-section .get {
+        font-size: 24px !important;
+        padding-top: 5px;
+        padding-left: 6rem !important;
+        background: transparent;
+    }
+
+    /*Section-2*/
+    .section-2 .row .content-first h1 {
+        font-size: 25px !important;
+        padding-top: 10px !important;
+    }
+    .section-2 .content-first button{
+        width: 170px !important;
+        height: 50px;
+        font-size: 20px !important;
+        margin-left: 16px;
+    }
+    .section-2 .card-padding-1, .section-2  .card-padding-2, .section-2 .card-padding-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-2 .section-2-padding .row .item .card {
+        width: 270px !important;
+        height: 400px !important;
+        margin-top: 50px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+    }
+    .section-2 .row  .item .content-2 h2 , .section-2 .row  .item .content-1 h2{
+        font-size: 2rem !important;
+    }
+    .section-2 .row  .item .content-2 p , .section-2 .row  .item .content-1 p{
+        font-size: 20px !important;
+    }
+    .section-2 .owl-carousel .owl-item img {
+        display: block;
+        width: 40px;
+    }
+/*section-3*/
+    .section-4 .content span {
+        font-size: 20px !important;
+    }
+    .section-4 .section-4-padding .row .content h2 {
+        padding-top: 10px !important;
+        font-size: 31px !important;
+    }
+    .section-4 .section-4-padding .row .content p {
+        padding-top: 10px !important;
+        font-size: 15px !important;
+    }
+    .section-4 .section-4-padding .row .section4-slider .owl-nav {
+        left: 46px !important;
+        bottom: -42px !important;
+        font-size: 50px !important;
+    }
+    .section-4 .section-4-padding .row .content{
+        padding-left: 40px;
+        padding-top: 30px;
+        height: 290px;
+    }
+    .section-4 .section-4-padding {
+        padding: 0 13% 8% 13% !important;
+    }
+    /*section-5*/
+    .section-5 .section-5-padding .row img {
+        width: 350px !important;
+        margin: 8px !important;
+    }
+    .section-5 .section-5-padding .bttm-text {
+        font-size: 20px !important;
+    }
+
+    .section-6 .section-head span {
+        font-size: 20px !important;
+    }
+    .section-6 .section-head h2 {
+        font-size: 30px !important;
+    }
+    .section-6 .section-6-padding .section-6-card .row  .item .card {
+        width: 340px !important;
+        height: 263px;
+    }
+    .section-6 .section-6-padding .section-6-card .row .item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .section-6 .section-6-padding .section6-slider .owl-nav {
+        top: -72px !important;
+        right: 32px !important;
+        font-size: 50px !important;
+    }
+    .section-6 .section-head{
+        padding-left: 39px;
+    }
+ /*section-7*/
+    .section-7 .section-7-padding span{
+        font-size: 18px;
+    }
+    .section-7 .section-7-padding h2{
+        font-size: 30px;
+    }
+    .section-7 .section-7-padding .bottom-form .email input{
+        height: 55px;
+        font-size: 18px;
+    }
+    .section-7 .section-7-padding .bottom-form .subject input{
+        height: 55px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .section-7 .section-7-padding .bottom-form textarea {
+        font-size: 18px;
+        margin-top: 20px;
+        height: 160px;
+    }
+    .section-7 .section-7-padding .bottom-form .submit-send{
+        width: 130px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .section-7 .section-7-padding .bottom-form .submit-send {
+        width: 170px;
+        font-size: 17px;
     }
  }
 
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+    .hero .left-section {
+        padding: 187px 24px 0 129px !important;
+
+    }
+    .hero .left-section h1 {
+        font-size: 32px !important;
+    }
+    .hero .left-section .btn {
+        width: 123px !important;
+        font-size: 12px !important;
+    }
+    .hero .left-section .get {
+        font-size: 13px !important;
+        padding-left: 85px !important;
+    }
+    .hero .right-section {
+        height: 470px !important;
+    }
+    .hero .right-section {
+        background-size: 435px !important;
+        background-repeat: no-repeat;
+    }
+ /*section-2*/
+    .section-2 .content-first h1 {
+            font-size: 26px !important;
+            padding-top: 10px !important;
+    }
+    .section-2 .section-2-padding .item .card {
+        width: 181px !important;
+        height: 231px !important;
+    }
+    .section-2 .content-1 h2, .content-2 h2 {
+        padding-top: 10px !important;
+    }
+    .section-2 .content-2 h2, .section-2 .content-1 h2 {
+        font-size: 1rem !important;
+    }
+    .section-2 .content-1 p, .content-2 p {
+        padding-top: 0;
+        font-size: 13px;
+    }
+    .section-2 .owl-theme .owl-nav {
+        margin-top: -10px;
+    }
+    .section-2 .bg-2 {
+        width: 137px !important;
+    }
+
+    /*section-4*/
+    .section-4 .bg-img {
+        width: 161px;
+    }
+    .section-4 .content span{
+        font-size: 10px;
+    }
+    .section-4 .content h2 {
+        padding-top: 5px !important;
+        font-size: 16px !important;
+    }
+    .section-4 .content p {
+        padding-top: 0 !important;
+        font-size: 11px !important;
+    }
+    .section-4 .section4-slider .owl-nav {
+        left: 46px !important;
+        bottom: -25px !important;
+        font-size: 30px !important;
+    }
+    .section-4 .section-4-padding {
+        padding: 0 13% 8% 0;
+    }
+
+    /*section-5*/
+    .section-5 .gallery-heading {
+        padding-left: 115px !important;
+        font-size: 26px !important;
+        font-weight: 600 !important;
+    }
+    .section-5 .section-5-padding  img {
+        width: 181px !important;
+        margin: 5px;
+    }
+    .section-5 .section-5-padding .bttm-text {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .section-5 .section-5-padding {
+        padding-bottom: 3% !important;
+    }
+    .section-5 {
+        background-size: 415px !important;
+    }
+
+    /*section-6*/
+    .section-6 .section-head span{
+        font-size: 10px;
+    }
+    .section-6 .section-head h2{
+        font-size: 20px;
+    }
+    .section-6 .section-6-card {
+        padding-top: 10px;
+    }
+    .section-6 .section-6-padding .section-6-card .card {
+        width: 263px !important;
+        height: 280px;
+    }
+    .section-6 .section-6-padding .section-6-card .card h5{
+        font-size: 16px;
+    }
+    .section-6 .section-6-card .card p {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .section-6 .section-6-padding .section6-slider .owl-nav {
+        top: -54px;
+        right: 5px;
+        font-size: 30px;
+    }
+    /*section-7*/
+    .section-7 span{
+        font-size: 10px;
+    }
+    .section-7 h2{
+        font-size: 20px;
+    }
+    .section-7 .bottom-form .email input{
+        height: 40px;
+        font-size: 13px;
+    }
+    .section-7 .bottom-form .subject input{
+        height: 40px;
+        font-size: 13px;
+    }
+    .section-7 .bottom-form textarea {
+        font-size: 13px;
+        margin-top: 20px;
+        height: 120px;
+    }
+    .section-7 .bottom-form .submit-send{
+        width: 130px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+ }
+
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1200px) {
+    /*hero-section*/
+    .hero .left-section {
+        padding: 205px 24px 0 129px;
+    }
+    .hero .right-section{
+        height: 600px;
+    }
+    .hero .left-section h1{
+        font-size: 45px;
+    }
+    .hero .left-section p{
+        padding-top: 10px;
+    }
+    .hero .left-section .btn{
+        width: 142px;
+        font-size: 15px;
+
+    }
+    .hero .left-section .get{
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    /*section-2*/
+    .section-2 .content-first h1{
+        font-size: 31px;
+        padding-top: 10px;
+    }
+
+    .section-2 .content-first button{
+        margin-top: 10px;
+    }
+    .section-2 .card{
+        width: 225px !important;
+        height: 300px;
+    }
+    .section-2 .content-1, .content-2 {
+        padding: 15px 15px;
+    }
+    .section-2 .content-1 h2, .content-2 h2 {
+        padding-top: 15px;
+    }
+    .section-2 .content-2 h2 , .section-2 .content-1 h2{
+        font-size: 1.6rem;
+    }
+    .section-2 .content-1 p, .content-2 p {
+        padding-top: 6px;
+    }
+    .section-2 .owl-carousel .owl-item img {
+        position: relative;
+        max-width: 15%;
+    }
+    .section-2 .content-first button{
+        width: 142px;
+        font-size: 15px;
+    }
+    .section-2-padding {
+        padding: 5% 13% 0 13%;
+    }
+    .section-2 {
+        padding-bottom: 70px;
+    }
+    /*section-4*/
+    .section-4 .content h2 {
+        padding-top: 10px;
+        font-size: 31px;
+    }
+    .section-4 .content p {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .section-4 .section4-slider .owl-nav {
+
+        left: 46px;
+        bottom: -34px;
+        font-size: 42px;
+
+    }
+    /*section-5*/
+    .section-5 .gallery-heading {
+        padding-left: 143px;
+        font-size: 31px;
+        font-weight: 600;
+    }
+    .section-5 img {
+        width: 232px;
+    }
+    .section-5 img {
+            width: 233px !important;
+        margin: 10px;
+    }
+    .section-5 .bttm-text{
+        padding-top: 12px;
+        font-size: 15px;
+    }
+    .section-5 .section-5-padding {
+        padding-bottom: 4%;
+    }
+    .section-5 {
+        background-size: 564px;
+    }
+    /*section-6*/
+    .section-6 .section-6-card .card {
+        width: 330px !important;
+        height: 309px;
+    }
+    .section-6.owl-theme .owl-nav {
+        margin-top: 0;
+    }
+
+    .section-6 .section6-slider .owl-nav {
+        top: -90px;
+        right: 17px;
+        font-size: 56px;
+    }
+
+    /*section-footer*/
+    footer .mid-container ul{
+        flex-direction: column;
+    }
+    footer .mid-container ul li {
+        margin-top: 15px;
+    }
+    footer .mid-container ul li a{
+        padding: 0 !important;
+    }
+    footer .top-container {
+        padding-bottom: 0;
+    }
+
+}
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { ... }
+@media (max-width: 1400px) {
+    /*section-2*/
+    .section-2{
+        padding-bottom: 100px;
+    }
+    .section-2 .card {
+        width: 280px;
+    }
+    .section-2 .bg-2{
+        width: 170px;
+    }
+    .section-5 img{
+        width: 265px;
+    }
+    /*section-5*/
+    .section-5 {
+        background-size: 710px;
+    }
+    /*.section-6*/
+    .section-6 .section-6-card .card{
+        width: 280px;
+        height: 309px;
+
+    }
+    .section-6-padding {
+        padding-bottom: 3%;
+    }
+
+}

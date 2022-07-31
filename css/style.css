@@ -7,15 +7,20 @@ body {
  nav {
     position: absolute;
     width: 100%;
-}
 
-.navigation {
+}
+.navbar-toggler span{
+    color: black;
+}
+.navigation {s
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 50px 20px 50px;
 }
-
+.logo img{
+    width: 100px;
+}
 .navigation .nav-left {
     display: flex;
     align-items: center;
@@ -31,28 +36,41 @@ body {
     width: 100%;
 }
 
-.navigation .nav-link {
+.navi .nav-link {
     padding-left: 30px;
     color: #314584;
     font-size: 18px;
     font-weight: 500;
 }
+.navi ul li a:hover{
+color: red;
+}
 
-.navigation .navbar-nav:first-child {
+.navi .navbar-nav:first-child {
     padding-left: 20px;
 }
 
 .nav-right {
+    
     display: flex;
     align-items: center;
 }
-
+.top-nav{
+    padding-right: 100px;
+}
 .nav-right .contact-us button {
     font-size: 18px;
     font-weight: 500;
     color: red;
     box-shadow: 0 2px 3px 2px #dfdfdf;
     width: 200px;
+}
+.nav-right .contact-us button:hover{
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    cursor: pointer;
+    transition: 700ms ease;
 }
 
 .nav-right .dropmenu {
@@ -72,7 +90,7 @@ body {
     color: #314584;
     font-size: 16px;
     font-weight: 500;
-} */
+} 
 
 
 /* hero section  */
@@ -82,10 +100,7 @@ body {
 }
 
 .hero .left-section {
-    padding-top: 270px;
-    padding-left: 200px;
-    padding-bottom: 0px;
-    padding-right: 60px;
+    padding: 270px 60px 0 200px;
 
 }
 
@@ -113,6 +128,7 @@ body {
     color: #314584;
     background-color: #fff;
     border: none;
+    font-size: 20px;
     font-size: 20px;
     font-weight: 500;
     padding-left: 35px;
@@ -187,18 +203,16 @@ body {
     height: 400px;
     border: none;
     margin-top: 20px;
-    box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
-    -webkit-box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
-    -moz-box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
+    box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
 
 }
 
 .section-2 .card:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    cursor: pointer;
-    transition: 700ms ease;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
     cursor: pointer;
     transition: 500ms ease;
 }
@@ -220,7 +234,7 @@ body {
 
 .section-2 .bg-2 {
     position: absolute;
-    bottom: -190px;
+    bottom: -211px;
     width: 200px;
 }
 
@@ -231,7 +245,7 @@ body {
 }
 
 .section-4 .section-4-padding {
-    padding: 0 13% 5% 0%;
+    padding: 0 13% 5% 0;
 }
 
 .section-4 .content .span {
@@ -274,7 +288,11 @@ body {
     font-size: 50px;
     color: #314584;
 }
-
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: blue;
+    text-decoration: none;
+}
 /* section-5 */
 .section-5 {
     height: 100%;
@@ -285,21 +303,21 @@ body {
 }
 
 .section-5 .section-5-padding {
-    padding: 2% 13% 8% 13%;
+    padding: 2% 12% 8% 13%;
 }
 
 .section-5 img {
-    width: 345px;
-    margin: 10px;
-    box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
-    -webkit-box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
-    -moz-box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
+    width: 330px;
+    margin: 15px;
+    box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
 }
 
 .section-5 img:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
     cursor: pointer;
     transition: 700ms ease;
 }
@@ -327,13 +345,18 @@ body {
 .section-5 .bttm-text a:hover {
     color: #ae0000;
 }
+.section-5 .top-gallery{
+    text-align: center;
+}
+.section-5 .bottom-gallery{
+    text-align: center;
+}
+
 
 /* section-6 */
 .section-6-padding {
-    background: url(/Assets/Bg-Shape-5.png);
     padding: 1% 13% 9% 13%;
-    background-repeat: no-repeat;
-    background-position: right;
+    background: url(/Assets/Bg-Shape-5.png) no-repeat right;
     background-size: 250px;
 }
 
@@ -341,22 +364,23 @@ body {
     padding-top: 30px;
 }
 
+
 .section-6 .section-6-card .card {
-    margin: 5px;
+    margin:5px 5px 20px 5px;
     border: none;
-    width: 360px;
-    height: 360px;
+    width: 330px;
+    height: 340px;
     padding: 30px 40px;
-    box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
-    -webkit-box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
-    -moz-box-shadow: 0px 5px 9px -2px rgba(0, 0, 0, 0.47);
+    box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0 5px 9px -2px rgba(0, 0, 0, 0.47);
 
 }
 
 .section-6 .section-6-card .card:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
     cursor: pointer;
     transition: 1s ease;
     color: #fff;
@@ -381,6 +405,7 @@ body {
 }
 .section-6 .section6-slider{
     position: relative;
+    margin-bottom: 10px;
 }
 .section-6 .section6-slider .owl-nav{
     position: absolute;
@@ -394,7 +419,7 @@ body {
 /* section-7  */
 
 .section-7-padding {
-    padding: 2% 13% 5% 13%;
+    padding: 2% 21% 5% 21%;
 }
 
 .section-7 .bottom-form .email input {

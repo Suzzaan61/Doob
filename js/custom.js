@@ -1,4 +1,4 @@
-var $ = jQuery.noConflict();
+const $ = jQuery.noConflict();
 $('.section2-slider').owlCarousel({
     loop:true,
     margin:10,
@@ -9,7 +9,7 @@ $('.section2-slider').owlCarousel({
             items:1
         },
         600:{
-            items:1
+            items:2
         },
         1000:{
             items:2
